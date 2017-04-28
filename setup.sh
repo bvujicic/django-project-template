@@ -6,7 +6,7 @@
 mkdir -p log media/uploads
 
 # INSTALL VIRTUALENV REQS
-pip install -r reqs/base
+pip install -Ur requirements.pip
 
 # MIGRATE APPLICATIONS AND INSERT INITIAL DATA
 #python manage.py makemigrations
